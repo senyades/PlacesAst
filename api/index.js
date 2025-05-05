@@ -5,8 +5,17 @@ const authRoutes = require('../routes/auth');
 const userRoutes = require('../routes/user');
 
 const app = express();
-app.use(cors());
+
+const corsOptions = {
+    origin: 'https://places-ast-frontend.vercel.app',
+    credentials: true // Разрешение использования куки
+    }
+    
+app.use(cors(corsOptions));
+
 app.use(bodyParser.json());
+
+
 
 // Роуты
 app.use('/auth', authRoutes);
