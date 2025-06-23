@@ -25,7 +25,13 @@ router.post('/register', async (req, res) => {
             { testid: 1, score: 0, passed: false },
             { testid: 2, score: 0, passed: false },
             { testid: 3, score: 0, passed: false },
-            { testid: 4, score: 0, passed: false }
+            { testid: 4, score: 0, passed: false },
+            { testid: 5, score: 0, passed: false },
+            { testid: 6, score: 0, passed: false },
+            { testid: 7, score: 0, passed: false },
+            { testid: 8, score: 0, passed: false },
+            { testid: 9, score: 0, passed: false },
+            { testid: 10, score: 0, passed: false }
         ];
 
         // Вставка данных

@@ -7,7 +7,7 @@ const userRoutes = require('../routes/user');
 const app = express();
 
 const corsOptions = {
-    origin: 'https://places-ast-frontend.vercel.app',
+    origin: 'http://localhost:3000',
     credentials: true // Разрешение использования куки
     }
     
